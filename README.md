@@ -1,6 +1,10 @@
 # react-light-accordion
 A very lightweight accordion component in React (only has one dependency).
 
+![DEMO](https://farbodsalimi.github.io/react-light-accordion/src/demo/demo.png)
+
+[ONLINE DEMO](https://farbodsalimi.github.io/react-light-accordion/demo/)
+
 ## Installation
 
 ```bash
