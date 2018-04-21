@@ -1,0 +1,52 @@
+.accordion {
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+.accordion .accordion-item:first-child .title {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.accordion .accordion-item:last-child .title {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.accordion .accordion-item .title {
+  background-color: #f6f6f6;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.accordion .accordion-item .title:after {
+  content: '\2795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.accordion .accordion-item .panel {
+  max-height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  -o-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+}
+.accordion .accordion-item.active .title {
+  background-color: #eee;
+}
+.accordion .accordion-item.active .title:after {
+  content: '\2796';
+}
+.accordion .accordion-item.active .panel {
+  max-height: 500px;
+  -webkit-transition: max-height 0.25s ease-in;
+  -o-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
+}
+/*# sourceMappingURL=index.css.map*/
