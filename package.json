@@ -1,6 +1,6 @@
 {
   "name": "react-light-accordion",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Lightweight react accordion component",
   "main": "build/index.js",
   "scripts": {
