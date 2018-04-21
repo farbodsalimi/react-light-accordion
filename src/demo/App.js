@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion, AccordionItem } from '../lib';
+import '../lib/style/index.css';
 
 const App = () => (
   <div>
