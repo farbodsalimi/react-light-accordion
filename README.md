@@ -24,7 +24,7 @@ npm i react-light-accordion
 ```jsx
 import React from 'react';
 import { Accordion, AccordionItem } from 'react-light-accordion';
-import 'react-light-accordion/lib/style/index.css';
+import 'react-light-accordion/demo/css/index.css';
 
 const App = () => (
   <div>
