@@ -1,8 +1,14 @@
 {
   "name": "react-light-accordion",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lightweight react accordion component",
   "main": "build/index.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "accordion",
+    "collapse"
+  ],
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
