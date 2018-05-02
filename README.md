@@ -2,9 +2,9 @@
 A very lightweight accordion component in React (only has one dependency).
 
 <center>
-<img src="/src/demo/demo.png" width="450"/>
+<img src="https://raw.githubusercontent.com/farbodsalimi/react-light-accordion/master/src/demo/demo.png" width="450"/>
 
-[ONLINE DEMO](https://farbodsalimi.github.io/react-light-accordion/demo/)
+[LIVE DEMO](https://farbodsalimi.github.io/react-light-accordion/demo/)
 </center>
 
 ## Installation
