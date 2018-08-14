@@ -10,7 +10,7 @@ A very lightweight accordion component in React (only has one dependency).
 ## Installation
 
 ```bash
-yarn install react-light-accordion
+yarn add react-light-accordion
 ```
 
 or
